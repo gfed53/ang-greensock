@@ -1,0 +1,28 @@
+:host {
+  perspective: 500px;
+}
+
+.wrapper {
+  // transform-origin: top center;
+  background: lightblue;
+  height: 300px;
+  display: grid;
+  align-items: center;
+}
+
+.box {
+  // opacity: 0;
+  display: inline-grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+  background: turquoise;
+  box-shadow: 1px 1px 3px #706f6f;
+}
+
+h1 {
+  padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
